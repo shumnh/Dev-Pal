@@ -42,15 +42,15 @@ DevPal Backend is a robust, scalable RESTful API that powers the DevPal platform
 cd devpal/backend
 ```
 
-2. Install dependencies:
+2. Set up environment variables:
 ```bash
-npm install
+cp env.example .env
+# Edit .env with your configuration
 ```
 
-3. Set up environment variables:
+3. Install dependencies:
 ```bash
-cp .env.example .env
-# Edit .env with your configuration
+npm install
 ```
 
 4. Start development server:
